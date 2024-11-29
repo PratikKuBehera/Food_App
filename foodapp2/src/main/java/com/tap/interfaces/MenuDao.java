@@ -15,8 +15,5 @@ public interface MenuDao {
 	public void updateMenuAvailStatus(boolean isAvalablie , int menuId);
 
 	public  List<Menu>  fetchByRestId(int restaurantId);
-	
-	
-
 
 }
